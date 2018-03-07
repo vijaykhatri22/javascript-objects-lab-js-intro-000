@@ -1,6 +1,6 @@
 var recipes ={};
 
 function updateObjectWithKeyAndValue(recipes,key,value){
-  return recipes[key]=value;
-
+  recipes[key]=value;
+return recipes;
 }
